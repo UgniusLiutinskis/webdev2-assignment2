@@ -1,4 +1,4 @@
-// Song Cards page: same data as the Playlist page but shown with Handlebars
+// Song Cards page has the same data as my Playlist page but shown with Handlebars
 const songCards = document.querySelector("#songCards");
 const message = document.querySelector("#message");
 
@@ -28,7 +28,7 @@ songCards.addEventListener("click", (evt) => {
   }
 });
 
-// Open and close the Add a Song dialog
+// Open and close Add a Song 
 const dialog = document.querySelector("dialog");
 const songForm = document.querySelector("#songForm");
 
